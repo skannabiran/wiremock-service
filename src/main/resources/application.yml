@@ -1,0 +1,4 @@
+wiremock:
+  port: 9090
+  usingFilesUnderClasspath: wiremock
+  verbose: true

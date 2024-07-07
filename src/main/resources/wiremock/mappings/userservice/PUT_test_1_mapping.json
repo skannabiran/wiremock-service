@@ -1,0 +1,30 @@
+{
+  "id": "b46afa4f-9a4d-4a50-87f8-fc7935716a26",
+  "request": {
+    "method": "PUT",
+    "urlPathTemplate": "/api/user/{userId}",
+    "pathParameters": {
+      "userId": {
+        "equalTo": "b46afa4f-9a4d-4a50-87f8-fc7935716a26"
+      }
+    },
+    "bodyPatterns": [
+      {
+        "equalToJson": {
+          "id": "b46afa4f-9a4d-4a50-87f8-fc7935716a26"
+        },
+        "ignoreArrayOrder": true,
+        "ignoreExtraElements": true
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "message": "Record Updated"
+    },
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "b46afa4f-9a4d-4a50-87f8-fc7935716a26",
+  "request": {
+    "method": "DELETE",
+    "urlPathTemplate": "/api/user/{userId}",
+    "pathParameters": {
+      "userId": {
+        "equalTo": "b46afa4f-9a4d-4a50-87f8-fc7935716a26"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "message": "Record Deleted"
+    },
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}
