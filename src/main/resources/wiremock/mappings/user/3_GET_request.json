@@ -1,0 +1,19 @@
+{
+  "id": "175409e2-c725-4b21-ad5e-2a741d183f4a",
+  "request": {
+    "method": "GET",
+    "urlPath": "/api/user",
+    "queryParameters": {
+      "gender": {
+        "equalTo": "Male"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "user/3_GET_response.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

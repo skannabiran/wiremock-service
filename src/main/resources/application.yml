@@ -1,0 +1,8 @@
+wiremock:
+  port: 9090
+  usingFilesUnderClassPath: wiremock
+  verbose: true
+
+spring:
+  application:
+    name: wiremock-service

@@ -1,0 +1,26 @@
+{
+  "id": "275409e2-c725-4b21-ad5e-2a741d183f4a",
+  "request": {
+    "method": "GET",
+    "urlPathTemplate": "/api/user/{userId}",
+    "pathParameters": {
+      "userId": {
+        "equalTo": "2af317aa-c6b0-4662-aaba-cf6350d94010"
+      }
+    }
+
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "id": "2af317aa-c6b0-4662-aaba-cf6350d94010",
+      "firstName": "John",
+      "lastName": "Smith",
+      "gender": "Male",
+      "emailId": "johnsmith@yahoo.com"
+    },
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

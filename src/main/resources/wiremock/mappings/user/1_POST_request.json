@@ -1,0 +1,26 @@
+{
+  "id": "301409e2-c725-4b21-ad5e-2a741d183f4a",
+  "request": {
+    "method": "POST",
+    "url": "/api/user",
+    "bodyPatterns": [
+      {
+        "equalToJson": {
+          "firstName": "John",
+          "lastName": "Smith",
+          "gender": "Male",
+          "emailId": "johnsmith@yahoo.com"
+        },
+        "ignoreArrayOrder": true,
+        "ignoreExtraElements": false
+      }
+    ]
+  },
+  "response": {
+    "status": 201,
+    "body": "CREATED",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "id": "2af317aa-c6b0-4662-aaba-cf6350d94010",
+    "firstName": "John",
+    "lastName": "Smith",
+    "gender": "Male",
+    "emailId": "johnsmith@yahoo.com"
+  },
+  {
+    "id": "1ed317aa-c6b0-4662-aaba-cf6350d94010",
+    "firstName": "John",
+    "lastName": "Smith",
+    "gender": "Male",
+    "emailId": "johnsmith@yahoo.com"
+  }
+]

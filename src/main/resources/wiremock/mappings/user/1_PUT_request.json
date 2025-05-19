@@ -1,0 +1,28 @@
+{
+  "id": "121409e2-c725-4b21-ad5e-2a741d183f4a",
+  "request": {
+    "method": "PUT",
+    "url": "/api/user",
+    "bodyPatterns": [
+      {
+        "equalToJson": {
+          "id": "2af317aa-c6b0-4662-aaba-cf6350d94010",
+          "firstName": "John",
+          "lastName": "Smith",
+          "gender": "Male",
+          "dateOfBirth": "10-May-1990",
+          "emailId": "johnsmith@yahoo.com"
+        },
+        "ignoreArrayOrder": true,
+        "ignoreExtraElements": false
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "body": "OK",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "147409e2-c725-4b21-ad5e-2a741d183f4a",
+  "request": {
+    "method": "GET",
+    "urlPathTemplate": "/api/user/{userId}",
+    "pathParameters": {
+      "userId": {
+        "equalTo": "1ed317aa-c6b0-4662-aaba-cf6350d94010"
+      }
+    }
+
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "user/2_GET_response.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}
