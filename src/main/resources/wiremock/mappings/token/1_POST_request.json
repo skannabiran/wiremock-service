@@ -1,0 +1,25 @@
+{
+  "id": "301409e2-c725-4b21-ad5e-2a741d183f4a",
+  "request": {
+    "method": "POST",
+    "url": "/api/oauth2/token",
+    "bodyPatterns": [
+      {
+        "equalToJson": {
+          "client_id": "1234",
+          "client_secret": "abcd",
+          "grant_type": "authorization_code"
+        },
+        "ignoreArrayOrder": true,
+        "ignoreExtraElements": false
+      }
+    ]
+  },
+  "response": {
+    "status": 201,
+    "bodyFileName": "token/1_POST_response.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}
